@@ -161,20 +161,24 @@ a:hover {
 
 .content__social {
     display: flex;
-    max-width: 36rem;
+    justify-content: center;  /* Выравнивание по центру */
+    gap: 20px;  /* Увеличенный отступ между иконками */
     font-size: 18px;
-    padding-top: 5px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-    flex: 1 1 0%;
-    -webkit-box-pack: start;
-    justify-content: space-between;
-}
-.content__social-item {
-    display: flex;
+    padding-top: 10px;
     align-items: center;
 }
+
+.content__social-item img {
+    width: 40px;  /* Увеличенный размер */
+    height: 40px;
+    margin-right: 0px;  /* Убрал лишний отступ */
+    transition: transform 0.2s ease-in-out;
+}
+
+.content__social-item img:hover {
+    transform: scale(1.2);  /* Эффект увеличения при наведении */
+}
+
 .content__social-item img {
     width: 22px;
     height: 22px;
