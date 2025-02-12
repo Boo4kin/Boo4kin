@@ -104,15 +104,17 @@ a:hover {
         color: #c8cbcd;
     }
 
-    a {
-        color: #fff;
+    a, 
+    .content__social-item {
+        color: #fff !important; /* Белый цвет в темной теме */
     }
 
     .content__social-item img,
-    .footer__social-item img{
+    .footer__social-item img {
         filter: invert(1);
     }
 }
+
 
 .main {
     margin: auto;
