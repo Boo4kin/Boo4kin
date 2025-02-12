@@ -175,7 +175,7 @@ a:hover {
     font-weight: 600;
     gap: 10px;  /* Отступ между иконкой и текстом */
     text-decoration: none;
-    color: white;  /* Цвет текста */
+    color: #333;  /* Цвет текста */
 }
 
 .content__social-item img {
