@@ -274,3 +274,19 @@ a:hover {
     height: 22px;
     margin-right: 4px;
 }
+
+
+body {
+    display: flex;
+    justify-content: center; /* Центрируем содержимое */
+    align-items: flex-start; /* Контент остается сверху */
+    min-height: 100vh; /* Минимальная высота экрана */
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 47.5rem; /* Ширина контейнера */
+    margin: 0 auto; /* Центрируем по центру */
+}
+
