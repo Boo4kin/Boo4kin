@@ -97,9 +97,9 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (prefers-color-scheme: white) {
+@media (prefers-color-scheme: dark) {
     body {
-        background-color: white;
+        background-color: black;
         color: #c8cbcd;
     }
 
