@@ -161,28 +161,30 @@ a:hover {
 
 .content__social {
     display: flex;
-    justify-content: center;  /* Выравнивание по центру */
-    gap: 20px;  /* Увеличенный отступ между иконками */
-    font-size: 18px;
+    justify-content: center;  /* Центрируем */
+    gap: 30px;  /* Отступы между иконками */
     padding-top: 10px;
     align-items: center;
 }
 
+.content__social-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;  /* Увеличенный текст */
+    font-weight: 600;
+    gap: 10px;  /* Отступ между иконкой и текстом */
+    text-decoration: none;
+    color: white;  /* Цвет текста */
+}
+
 .content__social-item img {
-    width: 40px;  /* Увеличенный размер */
-    height: 40px;
-    margin-right: 0px;  /* Убрал лишний отступ */
+    width: 32px;  /* Увеличенный размер иконок */
+    height: 32px;
     transition: transform 0.2s ease-in-out;
 }
 
 .content__social-item img:hover {
-    transform: scale(1.2);  /* Эффект увеличения при наведении */
-}
-
-.content__social-item img {
-    width: 22px;
-    height: 22px;
-    margin-right: 4px;
+    transform: scale(1.2);  /* Увеличение при наведении */
 }
 
 .content__about-header {
