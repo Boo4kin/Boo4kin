@@ -89,8 +89,9 @@ body {
 }
 
 a {
-    color: #333;
+    color: #333; /* Темно-серый в светлой теме */
     font-weight: 600;
+    transition: color 0.3s ease-in-out; /* Плавное изменение цвета */
 }
 
 a:hover {
