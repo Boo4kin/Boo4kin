@@ -293,3 +293,13 @@ body {
     margin: 0 auto; /* Центрируем по центру */
 }
 
+.main-item__description ul {
+    list-style-type: disc; /* Маркеры в виде точек */
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 20px;
+}
+
+.main-item__description li {
+    margin-bottom: 5px; /* Расстояние между пунктами */
+}
+
