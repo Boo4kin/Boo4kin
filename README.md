@@ -49,3 +49,5 @@
 ## Проекты
 ### [**FSRCNN-PyTorch**](https://github.com/Boo4kin/FSRCNN-ML)
 Проект с использованием сверточной нейросети Fast Super-Resolution Convolutional Neural Network для увеличения разрешения изображений.
+### [**Git Kraken**](https://github.com/Boo4kin/Kraken?tab=readme-ov-file#%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F)
+Проект для изучения возможностей программы GitKraken.
