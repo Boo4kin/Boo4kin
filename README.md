@@ -1,25 +1,3 @@
-# Simple and beauty portfolio
-This simple and clean portfolio template was developed in HTML, CSS, and JavaScript. This portfolio could be posted via GitHub Pages without any issues.
-
-## How you can use it
-Basically, there are two ways of using this template. And it depends if you know HTML or not.
-
-If you are familiar with HTML you can use this template as a constructor brick and build your own page as you would like.
-
-For those of you who don't familiar with HTML, I've prepared a few already-made pages that you can find in the `example` folder.
-
-When you'll choose which page you would like to use, you need to follow a few easy steps:
-
-* Copy the page that you like to the rood directory of this template and rename it to `index.html`
-  > Pay attention! You might need to remove or rename existing index.html
-* Adjust and edit text so that this page will fit your needs
-
-And that's it.
-
-Now you can upload your fresh `index.html` and `assets` folder to the GitHub Pages or whatever hosting you prefer. 
-
----
-
 # Простое и красивое портфолио
 Этот простой и понятный шаблон портфолио был разработан с использованием HTML, CSS и JavaScript. Это портфолио может быть размещено на страницах GitHub без каких-либо проблем.
 
