@@ -309,3 +309,11 @@ body {
     white-space: normal;
     word-wrap: break-word;
 }
+
+.content__main {
+    max-width: 800px; /* Можно изменить под нужный размер */
+    width: 100%;
+    margin: 0 auto; /* Центрирование */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
