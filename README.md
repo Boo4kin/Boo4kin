@@ -38,11 +38,11 @@
 ## Навыки
 - Python, SQL
 - Работа с базами данных
-- Веб-разработка
-- Машинное обучение (ML)
+- [Веб-разработка](https://github.com/Boo4kin/ya-practice-frontend)
+- [Машинное обучение (ML)](ML)
 - Дискретная математика
 - Математический анализ
-- Word, Excel, PowerPoint
+- Word, [Excel](Excel), PowerPoint
 
 ---
 
