@@ -151,8 +151,6 @@ a:hover {
 .content__description {
     font-weight: 700;
     letter-spacing: 0.03em;
-    white-space: normal; /* Обеспечивает перенос текста */
-    word-wrap: break-word; /* Принудительный перенос длинных слов */
 }
 
 .header {
@@ -305,3 +303,9 @@ body {
     margin-bottom: 5px; /* Расстояние между пунктами */
 }
 
+.content__description, 
+.content__hello-text, 
+.content__main-item {
+    white-space: normal;
+    word-wrap: break-word;
+}
