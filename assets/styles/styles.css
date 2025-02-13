@@ -151,6 +151,8 @@ a:hover {
 .content__description {
     font-weight: 700;
     letter-spacing: 0.03em;
+    white-space: normal; /* Обеспечивает перенос текста */
+    word-wrap: break-word; /* Принудительный перенос длинных слов */
 }
 
 .header {
