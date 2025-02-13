@@ -133,9 +133,10 @@ a:hover {
     width: 142px;
     height: 142px;
     min-width: 142px;
-    border-radius: 50%;
     border: 3px solid silver;
+    object-fit: cover; /* Заполнит контейнер, сохраняя пропорции */
 }
+
 
 .content__hello-text {
     margin-left: 2.2rem;
