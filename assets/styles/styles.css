@@ -334,17 +334,16 @@ body {
     border-bottom: none;
 }
 
-.project__title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff; /* Цвет заголовков */
-    text-decoration: none;
-}
-
 .project__title:hover {
     text-decoration: underline;
 }
 
+.project__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
 .project__description {
     font-size: 14px;
     color: #bbb;
