@@ -350,3 +350,16 @@ body {
     margin-top: 5px;
     max-width: 600px;
 }
+
+
+
+@media (prefers-color-scheme: light) {
+    .project__title {
+        color: #222; /* Тёмно-серый для светлой темы */
+    }
+
+    .project__description {
+        color: #555; /* Более контрастный серый */
+    }
+}
+
