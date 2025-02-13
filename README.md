@@ -22,7 +22,7 @@
 
 Развиваю навыки в высшей математике и анализе данных, постоянно совершенствую свои компетенции в области программирования и аналитики.
 
-За спиной также имеется завершенные [курсы Английского языка](https://www.ef.com/wwru/), с подкрепленным уровнем в 2019 году [First Certificate in English](assets/img/StatementOfResultFCE.pdf), B2 – Upper Intermediate.
+За спиной также имеется завершенные [курсы Английского языка](https://www.ef.com/wwru/), с подкрепленным уровнем в 2021 году [First Certificate in English](assets/img/StatementOfResultFCE.pdf), B2 – Upper Intermediate.
 
 Также имеются несколько курсов на онлайн платформе Stepik: "Поколение Python": курс для продвинутых, а также "Введение в SQL".
 
