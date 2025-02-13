@@ -47,6 +47,5 @@
 ---
 
 ## Проекты
-### **FSRCNN-PyTorch**
-[Ссылка на проект]([https://github.com/yourusername/FSRCNN-PyTorch](https://github.com/Boo4kin/FSRCNN-ML/tree/main)) 
+### [**FSRCNN-PyTorch**](https://github.com/Boo4kin/FSRCNN-ML)
 Проект с использованием сверточной нейросети Fast Super-Resolution Convolutional Neural Network для увеличения разрешения изображений.
