@@ -40,6 +40,8 @@
 ## Навыки
 - Python, [SQL](SQL)
 - Работа с базами данных
+- Визуализация данных (Matplotlib)
+- Pandas, Scikit-learn, PyTorch, pandas
 - [Веб-разработка](https://github.com/Boo4kin/ya-practice-frontend)
 - [Машинное обучение (ML)](ML)
 - Дискретная математика
