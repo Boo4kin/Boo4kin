@@ -63,7 +63,7 @@
 ### [**SQL**](https://github.com/Boo4kin/Boo4kin/tree/main/SQL)
 Разработан проект, который имитирует систему бронирования авиабилетов с использованием SQL. Включает работу с транзакциями, уровнями изоляции и блокировками для предотвращения ошибок при конкурентном доступе.
 
-### [**Рекомендательная система**](https://github.com/Boo4kin/Boo4kin/tree/main/Computer%20Vision)
+### [**Рекомендательная система**](https://github.com/Boo4kin/Boo4kin/tree/main/Recomendation%20streamlit)
 Была создана рекомендательная система с графическим интерфейсом, с помощью сервиса Streamlit.
 
 ### [**Проекты в Excel**](https://github.com/Boo4kin/Boo4kin/tree/main/Excel)
