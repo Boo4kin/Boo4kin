@@ -1,4 +1,4 @@
-<img src="assets/img/avatar2.jpg" alt="Николай Букин" width="132" align="right">
+<img src="assets/img/nikolay-bukin-profile.jpg" alt="Николай Букин" width="132" align="right">
 
 # Николай Букин
 
