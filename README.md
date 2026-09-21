@@ -46,7 +46,7 @@
 ## Навыки
 
 - **Системный анализ:** требования, BPMN, AS-IS / TO-BE, UML, PlantUML, техническая документация
-- **Данные и интеграции:** SQL, PostgreSQL, SQLite, REST API, Postman, Python
+- **Данные и интеграции:** SQL, PostgreSQL, MariaDB, Microsoft SQL Server, SQLite, REST API, Postman, Python
 - **Тестирование и поддержка:** pytest, FastAPI API, regression / smoke, анализ логов, диагностика инцидентов, 1С
 - **Data / ML:** pandas, NumPy, scikit-learn, statsmodels, TensorFlow, PyTorch
 
