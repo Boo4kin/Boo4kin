@@ -24,7 +24,7 @@
     </nav>
 
     <div class="header-actions">
-      <a class="header-cta" href="assets/docs/Nikolay-Bukin-CV-RU.pdf" download>Скачать PDF</a>
+      <a class="header-cta resume-download" href="assets/docs/Nikolay-Bukin-CV.pdf" data-preferred="assets/docs/Nikolay-Bukin-CV-RU.pdf" data-ready-label="Скачать PDF" download>Скачать PDF</a>
       <div class="language-switch" aria-label="Выбор языка">
         <span class="is-active" aria-current="page">RU</span>
         <a href="en.html">EN</a>
@@ -38,8 +38,8 @@
         <p class="eyebrow"><span></span> Системный аналитик · Москва</p>
         <h1>Николай<br><strong>Букин</strong></h1>
         <p class="hero-lead">
-          Работаю на стыке требований, данных, API и эксплуатации. Разбираю поведение систем,
-          локализую причины ошибок и перевожу технические детали в понятные модели и документацию.
+          Системный аналитик с практикой в поддержке корпоративных приложений:
+          требования, SQL, REST API, регрессионное тестирование и диагностика инцидентов.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="mailto:bkolyabu@gmail.com">Связаться</a>
@@ -47,7 +47,7 @@
         </div>
         <dl class="hero-facts" aria-label="Ключевая информация">
           <div><dt>Сейчас</dt><dd>АО «ВИМ Инвестиции»</dd></div>
-          <div><dt>Роль</dt><dd>Системный аналитик</dd></div>
+          <div><dt>Фокус</dt><dd>Системный анализ</dd></div>
           <div><dt>База</dt><dd>Прикладная математика</dd></div>
           <div><dt>English</dt><dd>B2 · FCE</dd></div>
         </dl>
@@ -131,11 +131,10 @@
               воспроизводимой информации разработчикам.
             </p>
             <ul>
-              <li>Разбираю обращения: воспроизвожу проблему, сопоставляю поведение интерфейса, API, логов и данных.</li>
-              <li>Использую SQL, Python, REST API и командную строку для проверки сценариев и поиска отклонений.</li>
+              <li>Диагностирую обращения: воспроизвожу сценарии, сопоставляю поведение API, логов и данных, локализую вероятную причину.</li>
+              <li>Проверяю данные и системные сценарии с помощью SQL, Python, REST API и командной строки.</li>
               <li>Пишу и поддерживаю регрессионные тесты для FastAPI API: позитивные, негативные и граничные сценарии.</li>
-              <li>Формирую для разработчиков технический контекст: шаги воспроизведения, факты, логи, входные данные и наблюдаемый результат.</li>
-              <li>Работаю с 1С и корпоративными приложениями в рамках поддержки и анализа пользовательских сценариев.</li>
+              <li>Передаю разработчикам воспроизводимый технический контекст: шаги, входные данные, логи, фактический и ожидаемый результат.</li>
             </ul>
           </div>
         </article>
@@ -247,7 +246,7 @@
         <div class="contact-links">
           <a href="https://github.com/Boo4kin" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
           <a href="https://t.me/Boo4kin" target="_blank" rel="noreferrer">Telegram <span>↗</span></a>
-          <a href="assets/docs/Nikolay-Bukin-CV-RU.pdf" download>Резюме PDF <span>↓</span></a>
+          <a class="resume-download" href="assets/docs/Nikolay-Bukin-CV.pdf" data-preferred="assets/docs/Nikolay-Bukin-CV-RU.pdf" data-ready-label="Резюме PDF" download>Резюме PDF <span>↓</span></a>
         </div>
       </div>
     </section>
@@ -257,5 +256,6 @@
     <p>© 2026 Николай Букин</p>
     <a href="#top">Наверх ↑</a>
   </footer>
+  <script src="assets/scripts/resume-links.js" defer></script>
 </body>
 </html>
