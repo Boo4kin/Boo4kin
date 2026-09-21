@@ -1,0 +1,44 @@
+name: Publish localized CV PDFs
+
+on:
+  push:
+    paths:
+      - ".github/workflows/publish-cv.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer fonts-liberation
+          python -m pip install --upgrade python-docx
+
+      - name: Generate Russian and English CVs
+        run: |
+          mkdir -p cvbuild assets/docs
+          python tools/generate_cv_once.py cvbuild assets/img/nikolay-bukin-original.jpg
+          libreoffice --headless --convert-to pdf --outdir assets/docs cvbuild/Nikolay-Bukin-CV-RU.docx
+          libreoffice --headless --convert-to pdf --outdir assets/docs cvbuild/Nikolay-Bukin-CV-EN.docx
+          cp assets/docs/Nikolay-Bukin-CV-RU.pdf assets/docs/Nikolay-Bukin-CV.pdf
+          test -s assets/docs/Nikolay-Bukin-CV-RU.pdf
+          test -s assets/docs/Nikolay-Bukin-CV-EN.pdf
+
+      - name: Commit CV files
+        run: |
+          rm -rf cvbuild
+          rm -f tools/generate_cv_once.py
+          rm -f .github/workflows/publish-cv.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish Russian and English CV PDFs"
+          git push
