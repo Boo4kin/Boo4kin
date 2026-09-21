@@ -101,7 +101,7 @@ img {
 
 .site-nav {
   display: flex;
-  gap: 28px;
+  gap: 22px;
   color: var(--muted);
   font-size: 14px;
   font-weight: 700;
