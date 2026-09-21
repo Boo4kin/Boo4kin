@@ -24,7 +24,7 @@
     </nav>
 
     <div class="header-actions">
-      <a class="header-cta" href="assets/docs/Nikolay-Bukin-CV-EN.pdf" download>Download PDF</a>
+      <a class="header-cta resume-download" href="assets/docs/Nikolay-Bukin-CV.pdf" data-preferred="assets/docs/Nikolay-Bukin-CV-EN.pdf" data-ready-label="Download PDF" download>PDF (RU)</a>
       <div class="language-switch" aria-label="Language">
         <a href="index.html">RU</a>
         <span class="is-active" aria-current="page">EN</span>
@@ -38,9 +38,8 @@
         <p class="eyebrow"><span></span> Systems Analyst · Moscow</p>
         <h1>Nikolay<br><strong>Bukin</strong></h1>
         <p class="hero-lead">
-          I work at the intersection of requirements, data, APIs and production support.
-          I investigate system behaviour, localise issues and turn technical details into
-          clear models and documentation.
+          Systems analyst with hands-on business application support experience:
+          requirements, SQL, REST APIs, regression testing and incident investigation.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="mailto:bkolyabu@gmail.com">Contact me</a>
@@ -132,11 +131,10 @@
               technical context.
             </p>
             <ul>
-              <li>Investigate incidents by reproducing issues and comparing UI behaviour, API responses, logs and data.</li>
-              <li>Use SQL, Python, REST APIs and command-line tools to validate scenarios and identify deviations.</li>
+              <li>Investigate incidents by reproducing scenarios, comparing API behaviour, logs and data, and narrowing down likely causes.</li>
+              <li>Validate data and system scenarios with SQL, Python, REST APIs and command-line tools.</li>
               <li>Write and maintain regression tests for FastAPI APIs, including positive, negative and boundary scenarios.</li>
-              <li>Prepare technical context for developers: reproduction steps, facts, logs, input data and observed results.</li>
-              <li>Work with 1C and internal business applications as part of support and user-scenario analysis.</li>
+              <li>Provide developers with reproducible technical context: steps, input data, logs, expected and observed results.</li>
             </ul>
           </div>
         </article>
@@ -248,7 +246,7 @@
         <div class="contact-links">
           <a href="https://github.com/Boo4kin" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
           <a href="https://t.me/Boo4kin" target="_blank" rel="noreferrer">Telegram <span>↗</span></a>
-          <a href="assets/docs/Nikolay-Bukin-CV-EN.pdf" download>Resume PDF <span>↓</span></a>
+          <a class="resume-download" href="assets/docs/Nikolay-Bukin-CV.pdf" data-preferred="assets/docs/Nikolay-Bukin-CV-EN.pdf" data-ready-label="Resume PDF" download>Resume PDF (RU) <span>↓</span></a>
         </div>
       </div>
     </section>
@@ -258,5 +256,6 @@
     <p>© 2026 Nikolay Bukin</p>
     <a href="#top">Back to top ↑</a>
   </footer>
+  <script src="assets/scripts/resume-links.js" defer></script>
 </body>
 </html>
